@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "lanya",
+      "name": "BOT",
       "dependencies": {
         "@keyv/mongo": "^3.0.1",
         "@napi-rs/canvas": "^0.1.68",
