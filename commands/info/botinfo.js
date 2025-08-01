@@ -37,7 +37,7 @@ module.exports = {
       .addFields(
         {
           name: 'Developer',
-          value: '```elm\nGaurav & Neppixel\n```',
+          value: '```Luka e Gigetto```',
           inline: true,
         },
         {
@@ -85,7 +85,7 @@ module.exports = {
         },
         {
           name: 'Library',
-          value: '```elm\ndiscord.js v14\n```',
+          value: '``````',
           inline: true,
         }
       )
@@ -95,12 +95,8 @@ module.exports = {
       })
       .setTimestamp();
 
-    const sourceCodeButton = new ButtonBuilder()
-      .setLabel('Source Code')
-      .setURL('https://github.com/gaurav87565/Lanya-2.0')
-      .setStyle(ButtonStyle.Link);
 
-    const row = new ActionRowBuilder().addComponents(sourceCodeButton);
+
 
     await interaction.reply({ embeds: [botInfoEmbed], components: [row] });
   },
